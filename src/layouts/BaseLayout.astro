@@ -14,8 +14,10 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.prop
   <head>
     <BaseHead title={title} description={description} image={image} />
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TCK59X2JND"></script>
-<script>
+<script 
+type="text/partytown"
+async src="https://www.googletagmanager.com/gtag/js?id=G-TCK59X2JND"></script>
+<script type="text/partytown">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
